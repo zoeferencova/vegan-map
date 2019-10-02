@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Vegemaps</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		
+		<nav class="navbar">
+			
+			<img src="#" alt="Vegemaps" class="logo">
+			
+			<form role="search" action="/" method="get" class="search-form">
+				<label for="search">
+					<span class="hidden">Search for a place or address</span>
+				</label>
+				<input id="search" class="search-input js-search" type="text" placeholder="Search for a place or address">
+				<button type="submit" class="submit-button js-submit">
+			    	<span class="hidden">Submit Search</span>
+			    	<img src="https://img.icons8.com/ios-glyphs/50/000000/search.png">
+			  	</button>
+			</form>
+			
+		</nav>
+
+		<div id="map"></div>
+
+		<footer class="footer">
+			<p>Footer Text</p>
+		</footer>
+
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAneTY3_ApOO16hFLSvUESlvJAmiISfJ_c&callback=initMap"
+    async defer></script>
+</body>
+</html>

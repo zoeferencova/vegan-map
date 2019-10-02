@@ -1,0 +1,71 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	margin: auto;
+}
+
+
+
+.hidden {
+	display: none;
+}
+
+.submit-button img {
+	height: 17px;
+}
+
+.search-input {
+	height: 30px;
+	width: 300px;
+}
+
+.submit-button {
+	padding-top: 5px;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	background-color: lightgray;
+	align-items: center;
+/*	padding: 10px;*/
+	height: 5%;
+}
+
+.search-form {
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+
+.footer {
+	background-color: lightgray;
+	font-size: 12px;
+	bottom: 0;
+	width: 100%;
+	padding: 5px;
+	height: 4%;
+}
+
+#map {
+	height: 91%;
+}
